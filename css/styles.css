@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+/*Headings*/
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Container Section */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+/*Navbar*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.download-btn{
+    margin: 5% 2% 2% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image*/
+
+.img-dog{
+    transform: rotate(25deg);
+    width: 60%;
+    left: 30%;
+    position: absolute;
+}
+
+/* Features Section*/
+
+#features{
+    position: relative;
+}
+
+.feature-tittle{
+    font-size: 1.5rem;
+}
+
+.ftr-box{
+    padding: 4%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+color: red;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.pr{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-colm{
+    padding: 3% 2%;
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .img-dog{
+     position: static;
+     transform: rotate(0);
+    }
+}
+
+/* Footer Section */
+
+.social{
+    margin: 20px 10px;
+}
